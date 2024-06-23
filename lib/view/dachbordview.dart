@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 import 'package:resposive/core/utiles/Adaptiveui.dart';
@@ -47,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     rate: '20%',
                     title: 'Product royalti',
                   ),
+                 Size()
                   ListTileincomeModel(
                     color: const Color(0xffE2DECD),
                     rate: '22%',
